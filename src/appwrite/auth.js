@@ -53,4 +53,6 @@ export class  Authentication {
 
 }
 
-export default auth = new Authentication()
+const auth = new Authentication();
+
+export default auth;
