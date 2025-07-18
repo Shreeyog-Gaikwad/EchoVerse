@@ -3,7 +3,7 @@ import service from '../appwrite/service'
 import { Container, BlogForm } from '../components'
 import { useNavigate, useParams } from 'react-router-dom';
 
-function EditPost() {
+function EditBlog() {
 
     const [blog, setBlog] = useState([]);
     const {slug} = useParams();
@@ -25,4 +25,4 @@ function EditPost() {
   ) : null;
 }
 
-export default EditPost
+export default EditBlog
